@@ -1,7 +1,7 @@
 import { Box, Button, Modal, TextField, Typography } from '@mui/material'
 import React, {useEffect, useState} from 'react'
 
-const QuestionModal = (props) => {
+const ResponseModal = (props) => {
 
   const style = {
     position: 'absolute',
@@ -89,4 +89,4 @@ const QuestionModal = (props) => {
   )
 }
 
-export default QuestionModal;
+export default ResponseModal;
